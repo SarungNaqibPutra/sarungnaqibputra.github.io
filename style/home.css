@@ -104,7 +104,7 @@
         width: 208px;
       }
       @media (max-width: 500px) {
-        width: 128px;
+        width: 176px;
       }   
     }
     .card-img-top{
@@ -128,8 +128,8 @@
             max-height: 10rem;
         }
         @media (max-width: 500px) {
-            max-width: 8rem;
-            max-height: 6rem;
+            max-width: 11rem;
+            max-height: 8rem;
         }
     }
     .card-img-top:hover{
@@ -152,7 +152,7 @@
         width: 208px;
       }
       @media (max-width: 500px) {
-        width: 128px;
+        width: 176px;
       }  
     }
     .card-sarung{
@@ -186,8 +186,8 @@
       margin-top: 1rem;
   }
 }
-/* scroll top */
-* {
+/* scroll top ngebug di handheld device*/
+/* * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -206,10 +206,8 @@
     cursor: pointer;
     border-radius: 6px;
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.336);
-    /* hover effect default */
     transform: scale(0.9);
     transition: 0.3s ease-in-out transform;
-    /* for centering the icon */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -223,7 +221,7 @@
   
   .scroll-top:hover {
     transform: scale(1);
-  }
+  } */
 
 /* transaction */
 .transaction-container {
