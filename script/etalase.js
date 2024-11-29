@@ -24,7 +24,6 @@ function createCard(cardId, data, index) {
   image.classList.add('card-img-top');
   image.src = `/img/sarung (${cardId.split('-')[1]}).jpeg`;
   image.alt = `Sarung ${cardId.split('-')[1]}`;
-  image.loading = "lazy";
 // create card body for input text
   const cardBody = document.createElement('div');
   cardBody.classList.add('card-body');
