@@ -13,18 +13,28 @@ fetch('/script/card-data.json')
   .catch(error => {
     console.error('Error fetching data:', error);
   });
-// create card
 function createCard(cardId, data, index) {
   const card = document.createElement('div');
   card.classList.add('card-sarung');
-  // card.style.width = '18rem';
   card.id = cardId;
-// create img in the card
+
+  // Create img in the card with responsive srcset
   const image = document.createElement('img');
   image.classList.add('card-img-top');
-  image.src = `/img/sarung (${cardId.split('-')[1]}).jpeg`;
+  
+  // Set srcset for responsive images
+  image.srcset = `
+    /img/sarung (${cardId.split('-')[1]}-small).jpeg 320w,
+    /img/sarung (${cardId.split('-')[1]}-medium).jpeg 640w,
+    /img/sarung (${cardId.split('-')[1]}-large).jpeg 1024w
+  `;
+  
+  image.sizes = '(max-width: 600px) 100vw, (max-width: 1200px) 50vw, 33vw'; // Adjust sizes based on your layout
+  image.src = `/img/sarung (${cardId.split('-')[1]}-large).jpeg`; // Fallback for browsers that do not support srcset
   image.alt = `Sarung ${cardId.split('-')[1]}`;
-// create card body for input text
+  image.loading = "lazy"; // Enable lazy loading
+
+  // Create card body for input text
   const cardBody = document.createElement('div');
   cardBody.classList.add('card-body');
 
@@ -48,15 +58,14 @@ function createCard(cardId, data, index) {
   cardBody.appendChild(cardText);
   card.appendChild(cardBody);
 
+  // Event listeners for mouseover and mouseout
   card.addEventListener('mouseover', () => {
-    // Adjust z-index of the next card's image
     const nextCard = document.getElementById(`card-${index + 1}`);
     if (nextCard) {
       nextCard.querySelector('.card-img-top').style.zIndex = '2';
     }
   });
   card.addEventListener('mouseout', () => {
-    // Reset z-index of the next card's image
     const nextCard = document.getElementById(`card-${index + 1}`);
     if (nextCard) {
       nextCard.querySelector('.card-img-top').style.zIndex = '1';
