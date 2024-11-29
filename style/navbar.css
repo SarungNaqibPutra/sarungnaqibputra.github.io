@@ -1,0 +1,22 @@
+.container-fluid{
+    .navbar-brand{
+        position: relative;
+        left: 4rem;
+    }
+    .navbar-nav{
+        position: relative;
+        left: 78%;
+        right: 5rem;
+        
+        @media (max-width: 991px){
+            position: relative;
+            right: 0%;
+            transform: translateX(-80%);
+            text-align: center;
+        }
+    }
+    .navbar-toggler{
+        position: relative;
+        right: 4rem;
+    }
+}
