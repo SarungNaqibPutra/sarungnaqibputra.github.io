@@ -40,6 +40,7 @@
 }
 /* etalase button */
 .container {
+  overflow: hidden;
   display: flex;
   margin-top: 2rem;
   margin-bottom: 1rem;
@@ -101,7 +102,10 @@
       }
       @media (max-width: 832px) {
         width: 208px;
-      }  
+      }
+      @media (max-width: 500px) {
+        width: 176px;
+      }   
     }
     .card-img-top{
         position: relative;
@@ -116,12 +120,16 @@
             max-height: 15rem;
         }
         @media (max-width: 1116px) {
-          max-width: 15rem;
-          max-height: 13rem;
-      }
+            max-width: 15rem;
+            max-height: 13rem;
+        }
         @media (max-width: 832px) {
             max-width: 13rem;
             max-height: 10rem;
+        }
+        @media (max-width: 500px) {
+            max-width: 11rem;
+            max-height: 8rem;
         }
     }
     .card-img-top:hover{
