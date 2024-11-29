@@ -5,7 +5,7 @@ fetch('/script/card-data-wm.json')
     const cardContainer = document.getElementById('card-container-wm');
 
     for (let i = 1; i <= 22; i++) {
-      const cardId = `card-wm-${i}`;
+      const cardId = `card-${i}`;
       const card = createCard(cardId, data);
       cardContainer.appendChild(card);
     }

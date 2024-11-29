@@ -1,0 +1,32 @@
+[
+  {
+    "cardId": "card-1",
+    "cardText": "This is card 1",
+    "cardPrice": "Rp 100.000",
+    "cardPriced": "Rp 150.000"
+  },
+  {
+    "cardId": "card-2",
+    "cardText": "This is card 2",
+    "cardPrice": "Rp 200.000",
+    "cardPriced": "Rp 250.000"
+  },
+  {
+    "cardId": "card-3",
+    "cardText": "This is card 3",
+    "cardPrice": "Rp 300.000",
+    "cardPriced": "Rp 350.000"
+  },
+  {
+    "cardId": "card-4",
+    "cardText": "This is card 4",
+    "cardPrice": "Rp 400.000",
+    "cardPriced": "Rp 450.000"
+  },
+  {
+    "cardId": "card-5",
+    "cardText": "This is card 5",
+    "cardPrice": "Rp 500.000",
+    "cardPriced": "Rp 550.000"
+  }
+]
