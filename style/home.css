@@ -104,7 +104,7 @@
         width: 208px;
       }
       @media (max-width: 500px) {
-        width: 176px;
+        width: 128px;
       }   
     }
     .card-img-top{
@@ -128,8 +128,8 @@
             max-height: 10rem;
         }
         @media (max-width: 500px) {
-            max-width: 11rem;
-            max-height: 8rem;
+            max-width: 8rem;
+            max-height: 6rem;
         }
     }
     .card-img-top:hover{
@@ -151,6 +151,9 @@
       @media (max-width: 832px) {
         width: 208px;
       }
+      @media (max-width: 500px) {
+        width: 128px;
+      }  
     }
     .card-sarung{
         position: relative;
