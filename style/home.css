@@ -25,39 +25,26 @@
     font-family: Nexa;
 }
 .product-desc{
-    position: relative;
     display: flex;
+    flex-direction: row;
+    align-items: center;
     justify-content: center;
-    margin-top: 3rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
     margin-left: 2rem;
     margin-right: 2rem;
     img{
-      width: 280px;
-      height: 280px;
-      border-radius: 100%
+      border-radius: 100%;
+      max-width: 280px;
+      max-height: 280px;
+      margin-bottom: 2rem;
     }
     p{
       margin-left: 2rem;
-      margin-left: 2rem;
-      width: 750px;
       text-align: justify;
-      text-align: start;
-      font-size: 1rem;
-      @media (max-width: 500px) {
-        width: 450px;
-        margin-top: 2rem;
-        text-align: center;
-        
-      }
     }
-    @media (max-width: 500px) {
-      position: unset;
-      display: unset;
-      img{
-        margin-left: 4.3rem;
-        margin-right: 4.3rem;
-      }
-    
+    @media (max-width: 650px) {
+      flex-direction: column;
     }
 }
 .footer{
@@ -302,42 +289,33 @@
 .moredesc{
   margin-right: 5rem;
   margin-left: 5rem;
-  .p1{
-    margin-top: 1rem;
-    margin-left: 3rem;
-    position: relative;
-    display: flex;
-    justify-content: flex-start;
-    text-align: start;
-    @media (max-width: 500px){
-      position: relative;
+  max-height: 700px;
+  overflow: hidden;
+  display: flex;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  position: relative;
+  justify-content: center;
+  gap: 2rem;
+  .p1, .p2{
+    flex: 5;
+    display: flex; /* Make the container a flex container */
+    flex-direction: column; /* Arrange items vertically */
+    align-items: center; /* Vertically center items */
+    justify-content: center; /* Horizontally center items */
+    border: 2px solid gray;
+    p{
       text-align: center;
-      top: 0rem;
-      left: 0rem;
+      
       margin-top: 1rem;
-      margin-left: 3rem;
-      margin-right: 3rem;
+      margin-left: 1rem;
+      margin-bottom: 1rem;
+      margin-right: 1rem;
     }
   }
-  .p2{
-    margin-bottom: 1rem;
-    position: absolute;
-    top: 5rem;
-    left: 50rem;
-    display: flex;
-    text-align: end;
-    margin-right: 3rem;
-    @media (max-width: 500px){
-      position: relative;
-      text-align: center;
-      top: 0rem;
-      left: 0rem;
-      margin-top: 1rem;
-      margin-left: 3rem;
-      margin-right: 3rem;
-    }
+  @media (max-width: 906px){
+    flex-direction: column;
   }
-
 }
 @font-face{
     font-family: Nexa;
