@@ -4,6 +4,7 @@ html, body {
   width:100%;
   margin: 0;
   padding: 0;
+  animation: fadeIn 1.5s ease-in-out;
 }
 .d-block{
     width: 100%;
@@ -336,4 +337,12 @@ html, body {
 @font-face{
     font-family: Nexa;
     src: url(/style/Nexa-Heavy.ttf);
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0; /* Fully transparent */
+  }
+  100% {
+    opacity: 1; /* Fully opaque */
+  }
 }
