@@ -14,7 +14,7 @@ fetch('/script/card-data-wm.json')
     console.error('Error fetching data:', error);
   });
 // create card
-function createCard1(cardId, data, index) {
+function createCard1(cardId, data) {
   const card = document.createElement('div');
   card.classList.add('card-sarung');
   // card.style.width = '18rem';
@@ -48,21 +48,6 @@ function createCard1(cardId, data, index) {
   cardBody.appendChild(cardPrice);
   cardBody.appendChild(cardText);
   card.appendChild(cardBody);
-
-  card.addEventListener('mouseover', () => {
-    // Adjust z-index of the next card's image
-    const nextCard = document.getElementById(`card-${index + 1}`);
-    if (nextCard) {
-      nextCard.querySelector('.card-img-top').style.zIndex = '2';
-    }
-  });
-  card.addEventListener('mouseout', () => {
-    // Reset z-index of the next card's image
-    const nextCard = document.getElementById(`card-${index + 1}`);
-    if (nextCard) {
-      nextCard.querySelector('.card-img-top').style.zIndex = '1';
-    }
-  });
 
   return card;
 }

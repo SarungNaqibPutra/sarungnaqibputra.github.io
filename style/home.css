@@ -110,7 +110,7 @@ html, body {
 .card-container{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 10px;
+    gap: 25px;
     margin-left: 5rem;
     margin-right: 5rem;
     margin-top: 2rem;
@@ -202,6 +202,9 @@ html, body {
         @media (max-width: 450px) {
           width: 12rem;
         }
+    }
+    .card-sarung:hover{
+      z-index: 10;
     }
     .card-text{
         margin-top: 1rem;
@@ -322,7 +325,6 @@ html, body {
     border-radius: 2rem;
     p{
       text-align: center;
-      
       margin-top: 1rem;
       margin-left: 1rem;
       margin-bottom: 1rem;
@@ -332,6 +334,21 @@ html, body {
   }
   @media (max-width: 906px){
     flex-direction: column;
+  }
+}
+.attention{
+  overflow: hidden;
+  border: 2px solid red;
+  margin-top: 3rem;
+  flex-wrap: wrap;
+  display: flex;
+  border-radius: 2rem;
+  justify-content: center;
+  max-width: 720px;
+  p{
+    text-align: center;
+    margin-left: 1rem;
+    margin-right: 1rem;
   }
 }
 @font-face{
