@@ -309,6 +309,15 @@
     display: flex;
     justify-content: flex-start;
     text-align: start;
+    @media (max-width: 500px){
+      position: relative;
+      text-align: center;
+      top: 0rem;
+      left: 0rem;
+      margin-top: 1rem;
+      margin-left: 3rem;
+      margin-right: 3rem;
+    }
   }
   .p2{
     margin-bottom: 1rem;
@@ -317,6 +326,15 @@
     left: 50rem;
     display: flex;
     text-align: end;
+    @media (max-width: 500px){
+      position: relative;
+      text-align: center;
+      top: 0rem;
+      left: 0rem;
+      margin-top: 1rem;
+      margin-left: 3rem;
+      margin-right: 3rem;
+    }
   }
 
 }
