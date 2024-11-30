@@ -189,7 +189,7 @@
       margin-top: 1rem;
   }
 }
-.card-container.hidden {
+.card-container .hidden {
   opacity: 0; /* Fade out */
   visibility: hidden;
 }

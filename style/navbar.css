@@ -19,4 +19,10 @@
         position: relative;
         right: 4rem;
     }
+    .navbar-toggler:focus{
+        box-shadow: none;
+    }
+    .navbar-toggler:hover{
+        box-shadow: 0 0 0 var(--bs-navbar-toggler-focus-width);
+    }
 }
