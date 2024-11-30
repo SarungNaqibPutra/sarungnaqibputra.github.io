@@ -25,12 +25,40 @@
     font-family: Nexa;
 }
 .product-desc{
-    margin-top: 1rem;
-    font-size: 1rem;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
     margin-left: 2rem;
     margin-right: 2rem;
-    text-align: justify;
-    text-align: center;
+    img{
+      width: 280px;
+      height: 280px;
+      border-radius: 100%
+    }
+    p{
+      margin-left: 2rem;
+      margin-left: 2rem;
+      width: 750px;
+      text-align: justify;
+      text-align: start;
+      font-size: 1rem;
+      @media (max-width: 500px) {
+        width: 450px;
+        margin-top: 2rem;
+        text-align: center;
+        
+      }
+    }
+    @media (max-width: 500px) {
+      position: unset;
+      display: unset;
+      img{
+        margin-left: 4.3rem;
+        margin-right: 4.3rem;
+      }
+    
+    }
 }
 .footer{
     background-color: #333;
