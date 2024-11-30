@@ -1,15 +1,18 @@
 .container-fluid{
     .navbar-brand{
+        max-width: 50px;
+        max-height: 50px;
+        border-radius: 100%;
         position: relative;
-        left: 4rem;
+        left: 3rem;
         @media (max-width: 500px){
          left: 1rem;   
         }
     }
     .navbar-nav{
         position: relative;
-        left: 78%;
-        right: 5rem;
+        left: 83%;
+        right: 3rem;
         
         @media (max-width: 991px){
             position: relative;
