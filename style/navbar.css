@@ -2,6 +2,9 @@
     .navbar-brand{
         position: relative;
         left: 4rem;
+        @media (max-width: 500px){
+         left: 1rem;   
+        }
     }
     .navbar-nav{
         position: relative;
@@ -14,10 +17,14 @@
             transform: translateX(-80%);
             text-align: center;
         }
+
     }
     .navbar-toggler{
         position: relative;
         right: 4rem;
+        @media (max-width: 500px){
+            right: 1rem;
+        }
     }
     .navbar-toggler:focus{
         box-shadow: none;
