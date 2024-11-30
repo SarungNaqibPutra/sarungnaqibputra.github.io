@@ -195,7 +195,6 @@ html, body {
         position: relative;
         padding-bottom: 5rem;
         width: 18rem;
-        transition: z-index 0.3s ease-in-out;
         @media (max-width: 930px) {
           width: 15rem;
         }
@@ -203,12 +202,12 @@ html, body {
           width: 12rem;
         }
     }
-    .card-sarung .card-img-top {
+    /* .card-sarung .card-img-top {
       z-index: 1;
     }
-    .card-sarung:hover .card-img-top {
+    .card-sarung .card-img-top:hover {
       z-index: 2;
-    }
+    } */
     .card-text{
         margin-top: 1rem;
         text-align: center;

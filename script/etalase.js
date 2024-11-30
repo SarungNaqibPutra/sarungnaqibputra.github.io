@@ -48,20 +48,31 @@ function createCard(cardId, data, index) {
   cardBody.appendChild(cardText);
   card.appendChild(cardBody);
 
-  card.addEventListener('mouseover', () => {
-    // Adjust z-index of the next card's image
-    const nextCard = document.getElementById(`card-${index + 1}`);
-    if (nextCard) {
-      nextCard.querySelector('.card-img-top').style.zIndex = '2';
+  let hoveredCardIndex = 1;
+
+card.addEventListener('mouseover', () => {
+  // If a different card is currently hovered, reset its z-index
+  if (hoveredCardIndex !== index) {
+    const prevCard = document.getElementById(`card-${hoveredCardIndex}`);
+    if (prevCard) {
+      prevCard.querySelector('.card-img-top').style.zIndex = '2';
     }
-  });
-  card.addEventListener('mouseout', () => {
-    // Reset z-index of the next card's image
-    const nextCard = document.getElementById(`card-${index + 1}`);
-    if (nextCard) {
-      nextCard.querySelector('.card-img-top').style.zIndex = '1';
-    }
-  });
+  }
+
+  // Set the current card as the hovered card and increase its z-index
+  hoveredCardIndex = index;
+  const nextCard = document.getElementById(`card-${index + 1}`);
+  if (nextCard) {
+    nextCard.querySelector('.card-img-top').style.zIndex = '1';
+  }
+});
+
+card.addEventListener('mouseout', () => {
+  // Reset the hovered card index if the mouse leaves the current card
+  if (hoveredCardIndex === index) {
+    hoveredCardIndex = 1;
+  }
+});
 
   return card;
 }
