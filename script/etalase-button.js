@@ -13,13 +13,8 @@ womenButton.addEventListener('click', () => {
 document.addEventListener('DOMContentLoaded', () => {
     const menButton = document.getElementById('men');
     const womenButton = document.getElementById('women');
-    const cardContainer = document.getElementById('card-container');
-    const cardContainerWM = document.getElementById('card-container-wm');
-
-    // Initially hide the Women's card container
-    cardContainerWM.style.display = 'none';
-    cardContainerWM.classList.add('hidden');
-
+    const cardContainer = document.getElementById('men-card');
+    const cardContainerWM = document.getElementById('women-card');
     // Event listener for Men button
     menButton.addEventListener('click', () => {
         cardContainer.style.display = 'grid'; // Show Men cards as grid

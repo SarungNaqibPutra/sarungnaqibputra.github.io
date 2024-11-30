@@ -2,7 +2,7 @@
 fetch('/script/card-data.json')
   .then(response => response.json())
   .then(data => {
-    const cardContainer = document.getElementById('card-container');
+    const cardContainer = document.getElementById('men-card');
 
     for (let i = 1; i <= 22; i++) {
       const cardId = `card-${i}`;
