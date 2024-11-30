@@ -1,5 +1,6 @@
 html, body {
   overflow-x:hidden;
+  overflow-x: clip !important;
   width:100%;
   margin: 0;
   padding: 0;
@@ -298,7 +299,7 @@ html, body {
   max-height: 700px;
   display: flex;
   margin-top: 5rem;
-  margin-bottom: 5rem;
+  margin-bottom: 10rem;
   position: relative;
   justify-content: center;
   gap: 2rem;
