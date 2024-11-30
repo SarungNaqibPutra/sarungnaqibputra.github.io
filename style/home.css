@@ -242,6 +242,9 @@
     margin-bottom: 1rem;
     max-width: 120px;
   }
+  .card-body > p{
+    margin-top: 1rem;
+  }
   .card-footer {
     margin-right: 3rem;
     display: flex;
@@ -268,7 +271,27 @@
     }
   }
 }
+.moredesc{
+  margin-right: 5rem;
+  margin-left: 5rem;
+  .p1{
+    margin-top: 1rem;
+    margin-left: 3rem;
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    text-align: start;
+  }
+  .p2{
+    margin-bottom: 1rem;
+    position: absolute;
+    top: 5rem;
+    left: 50rem;
+    display: flex;
+    text-align: end;
+  }
 
+}
 @font-face{
     font-family: Nexa;
     src: url(/style/Nexa-Heavy.ttf);
