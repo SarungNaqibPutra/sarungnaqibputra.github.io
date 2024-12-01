@@ -130,5 +130,41 @@
     "cardText": "This is card 22",
     "cardPrice": "Rp 2.200.000",
     "cardPriced": "Rp 2.300.000"
+  },
+  {
+    "cardId": "card-23",
+    "cardText": "This is card 22",
+    "cardPrice": "Rp 2.200.000",
+    "cardPriced": "Rp 2.300.000"
+  },
+  {
+    "cardId": "card-24",
+    "cardText": "This is card 22",
+    "cardPrice": "Rp 2.200.000",
+    "cardPriced": "Rp 2.300.000"
+  },
+  {
+    "cardId": "card-25",
+    "cardText": "This is card 22",
+    "cardPrice": "Rp 2.200.000",
+    "cardPriced": "Rp 2.300.000"
+  },
+  {
+    "cardId": "card-26",
+    "cardText": "This is card 22",
+    "cardPrice": "Rp 2.200.000",
+    "cardPriced": "Rp 2.300.000"
+  },
+  {
+    "cardId": "card-27",
+    "cardText": "This is card 22",
+    "cardPrice": "Rp 2.200.000",
+    "cardPriced": "Rp 2.300.000"
+  },
+  {
+    "cardId": "card-28",
+    "cardText": "This is card 22",
+    "cardPrice": "Rp 2.200.000",
+    "cardPriced": "Rp 2.300.000"
   }
 ]
