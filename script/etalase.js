@@ -4,7 +4,7 @@ fetch('/script/card-data.json')
   .then(data => {
     const cardContainer = document.getElementById('men-card');
 
-    for (let i = 1; i <= 22; i++) {
+    for (let i = 1; i <= 28; i++) {
       const cardId = `card-${i}`;
       const card = createCard(cardId, data);
       cardContainer.appendChild(card);
