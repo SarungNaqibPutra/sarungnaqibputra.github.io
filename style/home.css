@@ -57,7 +57,8 @@ html, body {
       margin-left: 2rem;
       text-align: justify;
       @media (max-width: 450px) {
-        margin-right: 2rem;
+        margin-right: 1rem;
+        margin-left: 1rem;
       }
     }
     @media (max-width: 650px) {
@@ -142,6 +143,9 @@ html, body {
       @media (max-width: 500px) {
         width: 176px;
       }   
+      @media (max-width: 392px) {
+        width: 160px;
+      }  
     }
     .card-img-top{
         box-shadow: 0 0 20px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.2), 0 0 60px rgba(0, 0, 0, 0.1);
@@ -168,6 +172,10 @@ html, body {
             max-width: 11rem;
             max-height: 8rem;
         }
+        @media (max-width: 392px) {
+          max-width: 10rem;
+          max-height: 7rem;
+      }
     }
     .card-img-top:hover{
       transform: scale(1.2);
@@ -191,6 +199,9 @@ html, body {
       @media (max-width: 500px) {
         width: 176px;
       }  
+      @media (max-width: 392px) {
+        width: 160px;
+      }  
     }
     .card-sarung{
         position: relative;
@@ -201,6 +212,10 @@ html, body {
         }
         @media (max-width: 450px) {
           width: 12rem;
+        }
+        @media (max-width: 392px) {
+          width: 10rem;
+          margin-left: 0.2rem;
         }
     }
     .card-sarung:hover{
@@ -311,7 +326,9 @@ html, body {
   justify-content: center;
   gap: 2rem;
   @media (max-width: 450px){
-    margin-bottom: 10rem;
+    margin-bottom: 5rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
   } 
   .p1, .p2{
     background-color: rgb(78, 78, 78);
