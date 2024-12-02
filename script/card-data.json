@@ -1,170 +1,170 @@
 [
   {
     "cardId": "card-1",
-    "cardText": "This is card 1",
-    "cardPrice": "Rp 100.000",
-    "cardPriced": "Rp 150.000"
+    "cardText": "Sarung motif Truntum",
+    "cardPrice": "Rp 85.000",
+    "cardPriced": "Rp 99.000"
   },
   {
     "cardId": "card-2",
-    "cardText": "This is card 2",
-    "cardPrice": "Rp 200.000",
-    "cardPriced": "Rp 250.000"
+    "cardText": "Sarung motif Truntum",
+    "cardPrice": "Rp 85.000",
+    "cardPriced": "Rp 99.000"
   },
   {
     "cardId": "card-3",
-    "cardText": "This is card 3",
-    "cardPrice": "Rp 300.000",
-    "cardPriced": "Rp 350.000"
+    "cardText": "Sarung motif Truntum",
+    "cardPrice": "Rp 85.000",
+    "cardPriced": "Rp 99.000"
   },
   {
     "cardId": "card-4",
-    "cardText": "This is card 4",
-    "cardPrice": "Rp 400.000",
-    "cardPriced": "Rp 450.000"
+    "cardText": "Sarung motif Truntum",
+    "cardPrice": "Rp 85.000",
+    "cardPriced": "Rp 99.000"
   },
   {
     "cardId": "card-5",
-    "cardText": "This is card 5",
-    "cardPrice": "Rp 500.000",
-    "cardPriced": "Rp 550.000"
+    "cardText": "",
+    "cardPrice": "Rp 84.000",
+    "cardPriced": "Rp 96.000"
   },
   {
     "cardId": "card-6",
-    "cardText": "This is card 6",
-    "cardPrice": "Rp 600.000",
-    "cardPriced": "Rp 650.000"
+    "cardText": "Sarung motif Pagar Hitam",
+    "cardPrice": "Rp 102.000",
+    "cardPriced": "Rp 109.000"
   },
   {
     "cardId": "card-7",
-    "cardText": "This is card 7",
-    "cardPrice": "Rp 700.000",
-    "cardPriced": "Rp 750.000"
+    "cardText": "Sarung motif Pagar Hujan",
+    "cardPrice": "Rp 102.000",
+    "cardPriced": "Rp 109.000"
   },
   {
     "cardId": "card-8",
-    "cardText": "This is card 8",
-    "cardPrice": "Rp 800.000",
-    "cardPriced": "Rp 850.000"
+    "cardText": "",
+    "cardPrice": "Rp 106.000",
+    "cardPriced": "Rp 109.000"
   },
   {
     "cardId": "card-9",
-    "cardText": "This is card 9",
-    "cardPrice": "Rp 900.000",
-    "cardPriced": "Rp 950.000"
+    "cardText": "",
+    "cardPrice": "Rp 84.000",
+    "cardPriced": "Rp 99.000"
   },
   {
     "cardId": "card-10",
-    "cardText": "This is card 10",
-    "cardPrice": "Rp 1.000.000",
-    "cardPriced": "Rp 1.100.000"
+    "cardText": "",
+    "cardPrice": "Rp 102.000",
+    "cardPriced": "Rp 109.000"
   },
   {
     "cardId": "card-11",
-    "cardText": "This is card 11",
-    "cardPrice": "Rp 1.100.000",
-    "cardPriced": "Rp 1.200.000"
+    "cardText": "",
+    "cardPrice": "Rp 98.000",
+    "cardPriced": "Rp 105.000"
   },
   {
     "cardId": "card-12",
-    "cardText": "This is card 12",
-    "cardPrice": "Rp 1.200.000",
-    "cardPriced": "Rp 1.300.000"
+    "cardText": "",
+    "cardPrice": "Rp 84.000",
+    "cardPriced": "Rp 99.000"
   },
   {
     "cardId": "card-13",
-    "cardText": "This is card 13",
-    "cardPrice": "Rp 1.300.000",
-    "cardPriced": "Rp 1.400.000"
+    "cardText": "",
+    "cardPrice": "Rp 106.000",
+    "cardPriced": "Rp 109.000"
   },
   {
     "cardId": "card-14",
-    "cardText": "This is card 14",
-    "cardPrice": "Rp 1.400.000",
-    "cardPriced": "Rp 1.500.000"
+    "cardText": "",
+    "cardPrice": "Rp 85.000",
+    "cardPriced": "Rp 99.000"
   },
   {
     "cardId": "card-15",
-    "cardText": "This is card 15",
-    "cardPrice": "Rp 1.500.000",
-    "cardPriced": "Rp 1.600.000"
+    "cardText": "",
+    "cardPrice": "Rp 102.000",
+    "cardPriced": "Rp 106.000"
   },
   {
     "cardId": "card-16",
-    "cardText": "This is card 16",
-    "cardPrice": "Rp 1.600.000",
-    "cardPriced": "Rp 1.700.000"
+    "cardText": "",
+    "cardPrice": "Rp 85.000",
+    "cardPriced": "Rp 99.000"
   },
   {
     "cardId": "card-17",
-    "cardText": "This is card 17",
-    "cardPrice": "Rp 1.700.000",
-    "cardPriced": "Rp 1.800.000"
+    "cardText": "",
+    "cardPrice": "Rp 106.000",
+    "cardPriced": "Rp 109.000"
   },
   {
     "cardId": "card-18",
-    "cardText": "This is card 18",
-    "cardPrice": "Rp 1.800.000",
-    "cardPriced": "Rp 1.900.000"
+    "cardText": "",
+    "cardPrice": "Rp 106.000",
+    "cardPriced": "Rp 109.000"
   },
   {
     "cardId": "card-19",
-    "cardText": "This is card 19",
-    "cardPrice": "Rp 1.900.000",
-    "cardPriced": "Rp 2.000.000"
+    "cardText": "",
+    "cardPrice": "Rp 109.000",
+    "cardPriced": "Rp 119.000"
   },
   {
     "cardId": "card-20",
-    "cardText": "This is card 20",
-    "cardPrice": "Rp 2.000.000",
-    "cardPriced": "Rp 2.100.000"
+    "cardText": "",
+    "cardPrice": "Rp 84.000",
+    "cardPriced": "Rp 99.000"
   },
   {
     "cardId": "card-21",
-    "cardText": "This is card 21",
-    "cardPrice": "Rp 2.100.000",
-    "cardPriced": "Rp 2.200.000"
+    "cardText": "",
+    "cardPrice": "Rp 106.000",
+    "cardPriced": "Rp 109.000"
   },
   {
     "cardId": "card-22",
-    "cardText": "This is card 22",
-    "cardPrice": "Rp 2.200.000",
-    "cardPriced": "Rp 2.300.000"
+    "cardText": "",
+    "cardPrice": "Rp 106.000",
+    "cardPriced": "Rp 109.000"
   },
   {
     "cardId": "card-23",
-    "cardText": "This is card 22",
-    "cardPrice": "Rp 2.200.000",
-    "cardPriced": "Rp 2.300.000"
+    "cardText": "Sarung motif Sarang Tawon",
+    "cardPrice": "Rp 69.000",
+    "cardPriced": "Rp 79.000"
   },
   {
     "cardId": "card-24",
-    "cardText": "This is card 22",
-    "cardPrice": "Rp 2.200.000",
-    "cardPriced": "Rp 2.300.000"
+    "cardText": "Sarung motif Sarang Tawon",
+    "cardPrice": "Rp 69.000",
+    "cardPriced": "Rp 79.000"
   },
   {
     "cardId": "card-25",
-    "cardText": "This is card 22",
-    "cardPrice": "Rp 2.200.000",
-    "cardPriced": "Rp 2.300.000"
+    "cardText": "Sarung motif Sarang Tawon",
+    "cardPrice": "Rp 69.000",
+    "cardPriced": "Rp 79.000"
   },
   {
     "cardId": "card-26",
-    "cardText": "This is card 22",
-    "cardPrice": "Rp 2.200.000",
-    "cardPriced": "Rp 2.300.000"
+    "cardText": "Sarung motif Sarang Tawon",
+    "cardPrice": "Rp 69.000",
+    "cardPriced": "Rp 79.000"
   },
   {
     "cardId": "card-27",
-    "cardText": "This is card 22",
-    "cardPrice": "Rp 2.200.000",
-    "cardPriced": "Rp 2.300.000"
+    "cardText": "",
+    "cardPrice": "Rp 85.000",
+    "cardPriced": "Rp 99.000"
   },
   {
     "cardId": "card-28",
-    "cardText": "This is card 22",
-    "cardPrice": "Rp 2.200.000",
-    "cardPriced": "Rp 2.300.000"
+    "cardText": "",
+    "cardPrice": "Rp 85.000",
+    "cardPriced": "Rp 99.000"
   }
 ]
